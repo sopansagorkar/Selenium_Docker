@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Selenium Docker
 
 This project having capabilities of running selenium test cases on docker container
@@ -13,6 +12,5 @@ folder description:
 test.sh : This file is used to build docker images available in /Hub , /NodeChrome and /NodeFirefox folder. Also using this file we can run all containers
 
 tearDown.sh : This file is used to stop and remove all containers 
-=======
-# Selenium_Docker
->>>>>>> 203a02bcd1b32dd1a5f9aa297a01c9aa2838b1cf
+
+
