@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.cybage.alm.test.SeleniumDockerTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.cybage.alm.test.SeleniumDockerTest">
+        <methods>
+          <include name="functionality2"/>
+          <include name="functionality1"/>
+          <include name="launchBrowser"/>
+          <include name="functionality4"/>
+          <include name="functionality3"/>
+        </methods>
+      </class> <!-- com.cybage.alm.test.SeleniumDockerTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.cybage.alm.test.SeleniumDockerTest] -->

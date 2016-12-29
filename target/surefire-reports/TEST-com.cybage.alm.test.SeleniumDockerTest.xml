@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.cybage.alm.test.SeleniumDockerTest" time="0.001" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Selenium_Docker"/>
+    <property name="PWD" value="/var"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/usr/lib/jvm/java-8-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"/>
+    <property name="HUDSON_SERVER_COOKIE" value="16ac85f17db57dee"/>
+    <property name="POM_ARTIFACTID" value="DockerizedSelenium"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="DockerizedSelenium"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/0"/>
+    <property name="NODE_LABELS" value="TestSlave"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="user.name" value="root"/>
+    <property name="SSH_CONNECTION" value="172.27.59.191 58930 172.27.59.191 22"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="XDG_SESSION_COOKIE" value="f2ac0018bef1c9753b75cea95707e60f-1482953415.347545-694143144"/>
+    <property name="SSH_CLIENT" value="172.27.59.191 58930 22"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#217"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="201c9b0fa26f4eaa61ff24f8f5b7e0b586ea6c67"/>
+    <property name="DISPLAY" value=":0"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="TestSlave"/>
+    <property name="NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="217"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="3.13.0-24-generic"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="201c9b0fa26f4eaa61ff24f8f5b7e0b586ea6c67"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/usr/lib/jvm/java-8-oracle"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="root"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/root"/>
+    <property name="POM_GROUPID" value="com.cybage.alm"/>
+    <property name="user.home" value="/root"/>
+    <property name="BUILD_TAG" value="jenkins-Selenium_Docker-217"/>
+    <property name="JENKINS_SERVER_COOKIE" value="16ac85f17db57dee"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="XDG_SESSION_ID" value="7"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/var/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.9"/>
+    <property name="java.class.path" value="/var/maven32-agent.jar:/var/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.9/boot/plexus-classworlds-2.5.2.jar:/var/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.9/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main /var/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.9 /var/slave.jar /var/maven32-interceptor.jar /var/maven3-interceptor-commons.jar 58224"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/usr/lib/jvm/java-8-oracle/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/var/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.9"/>
+    <property name="MAIL" value="/var/mail/root"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/var/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.9/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Selenium_Docker/217/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/root"/>
+    <property name="MAVEN_OPTS" value="-Dbrowser=firefox"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/var/workspace/Selenium_Docker"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Selenium_Docker/"/>
+    <property name="browser" value="firefox"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/var/tools/hudson.tasks.Maven_MavenInstallation/Maven_3.3.9"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="217"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="GIT_COMMIT" value="201c9b0fa26f4eaa61ff24f8f5b7e0b586ea6c67"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_IN"/>
+    <property name="maven3.interceptor" value="/var/maven32-interceptor.jar"/>
+    <property name="WORKSPACE" value="/var/workspace/Selenium_Docker"/>
+    <property name="maven3.interceptor.common" value="/var/maven3-interceptor-commons.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="LANGUAGE" value="en_IN:en"/>
+    <property name="USER" value="root"/>
+    <property name="GIT_URL" value="http://admin@172.27.59.62:7990/scm/doc/selenium-docker.git"/>
+    <property name="XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt"/>
+  </properties>
+  <testcase classname="com.cybage.alm.test.SeleniumDockerTest" name="functionality1" time="0.001"/>
+  <testcase classname="com.cybage.alm.test.SeleniumDockerTest" name="functionality2" time="0"/>
+  <testcase classname="com.cybage.alm.test.SeleniumDockerTest" name="functionality3" time="0"/>
+  <testcase classname="com.cybage.alm.test.SeleniumDockerTest" name="functionality4" time="0"/>
+</testsuite>
