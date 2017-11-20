@@ -21,7 +21,7 @@ public class SeleniumDockerTest {
 		//		.getProperty("host", "127.0.0.1:4444");
 		// String seleniumHubPort = System.getProperty("port","4444");
 		String seleniumBrowser = System.getProperty("browser", "firefox");
-		String hubURL = "http://172.17.0.3:4444/wd/hub";
+		String hubURL = "http://localhost:4444/wd/hub";
 
 		if (seleniumBrowser.equalsIgnoreCase("firefox")) {
 			System.out.println("LAUNCHING FIREFOX BROWSER...................");
