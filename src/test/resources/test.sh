@@ -1,16 +1,16 @@
 #!/bin/sh
 
-docker build -t selenium/hub:2.53.0 ../../main/resources/Hub/
+docker build -t selenium/hub ../../main/resources/Hub/
 
-docker build -t selenium/node-firefox:2.53.0 ../../main/resources/NodeFirefox/
+docker build -t selenium/node-firefox ../../main/resources/NodeFirefox/
 
-docker build -t selenium/node-chrome:2.53.0 ../../main/resources/NodeChrome/
+docker build -t selenium/node-chrome ../../main/resources/NodeChrome/
 
 sleep 10
 
 echo '\n\n*****Starting Selenium Hub Container...*****\n'
 
-HUB=$(docker run -d --name Hub selenium/hub:2.53.0)
+HUB=$(docker run -d --name Hub selenium/hub)
 
 HubURL=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' $HUB )
 
@@ -24,14 +24,14 @@ sleep 2
 
 echo '\n*****Starting Selenium Chrome node...*****\n'
 
-NODE_CHROME=$(docker run -d --name nodeChrome --link Hub:hub  selenium/node-chrome:2.53.0)
+NODE_CHROME=$(docker run -d --name nodeChrome --link Hub:hub  selenium/node-chrome)
 
 ipCHROME_NODE=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' $NODE_CHROME )
 
 
 echo '\n*****Starting Selenium firefox node...*****\n'
 
-NODE_FIREFOX=$(docker run -d --name nodeFirefox --link Hub:hub  selenium/node-firefox:2.53.0)
+NODE_FIREFOX=$(docker run -d --name nodeFirefox --link Hub:hub  selenium/node-firefox)
 
 ipFIREFOX_NODE=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' $NODE_FIREFOX )
 
