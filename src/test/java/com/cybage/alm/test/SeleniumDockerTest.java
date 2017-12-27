@@ -6,15 +6,15 @@ import java.net.URL;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class SeleniumDockerTest {
 
 	RemoteWebDriver driver;
 
-	@BeforeSuite
+	@BeforeClass
 	public void launchBrowser() {
 
 		//String seleniumHubAddress = System
@@ -66,7 +66,7 @@ public class SeleniumDockerTest {
 
 	}
 
-	@AfterSuite
+	@AfterClass
 	public void kill() {
 
 		driver.quit();
