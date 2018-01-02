@@ -10,7 +10,7 @@ USER seluser
 EXPOSE 4444
 
 # As integer, maps to "maxSession"
-ENV GRID_MAX_SESSION 5
+ENV GRID_MAX_SESSION 10
 # In milliseconds, maps to "newSessionWaitTimeout"
 ENV GRID_NEW_SESSION_WAIT_TIMEOUT -1
 # As a boolean, maps to "throwOnCapabilityNotPresent"
@@ -22,7 +22,7 @@ ENV GRID_CLEAN_UP_CYCLE 5000
 # In seconds, maps to "browserTimeout"
 ENV GRID_BROWSER_TIMEOUT 0
 # In seconds, maps to "timeout"
-ENV GRID_TIMEOUT 30
+ENV GRID_TIMEOUT 60
 # Debug
 ENV GRID_DEBUG false
 # As integer, maps to "port"
